@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/edsonjosedossantos/Projects/Projeto.Avaliacao/Projeto.Avaliacao.API/Projeto.Avaliacao.API.csproj": {}
+  },
+  "projects": {
+    "/Users/edsonjosedossantos/Projects/Projeto.Avaliacao/Projeto.Avaliacao.API/Projeto.Avaliacao.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/edsonjosedossantos/Projects/Projeto.Avaliacao/Projeto.Avaliacao.API/Projeto.Avaliacao.API.csproj",
+        "projectName": "Projeto.Avaliacao.API",
+        "projectPath": "/Users/edsonjosedossantos/Projects/Projeto.Avaliacao/Projeto.Avaliacao.API/Projeto.Avaliacao.API.csproj",
+        "packagesPath": "/Users/edsonjosedossantos/.nuget/packages/",
+        "outputPath": "/Users/edsonjosedossantos/Projects/Projeto.Avaliacao/Projeto.Avaliacao.API/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/edsonjosedossantos/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.12.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
